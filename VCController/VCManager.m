@@ -19,7 +19,7 @@ static VCManager *globalVCController = nil;
     dispatch_once(&onceToken, ^{
         
         globalVCController = [[super allocWithZone:NULL] init];
-        [globalVCController.view setBackgroundColor:[UIColor flightThemeColor]];
+        [globalVCController.view setBackgroundColor:[UIColor blueColor]];
         [globalVCController setNavigationBarHidden:YES animated:NO];
         
     });

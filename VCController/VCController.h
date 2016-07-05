@@ -15,7 +15,7 @@ typedef enum VCTranstAnimation
     VCTranstTopBottomAnimation ,
 }VCTranstAnimation;
 
-@interface VCController (Flight)
+@interface VCController : NSObject
 
 + (void)pushVC:(UIViewController *)viewController animated:(VCTranstAnimation)animated;
 + (void)popVCAnimated:(VCTranstAnimation)animated;

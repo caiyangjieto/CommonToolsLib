@@ -6,11 +6,11 @@
 //  Copyright © 2015年 qinisky. All rights reserved.
 //
 
-#import "VCController+Flight.h"
+#import "VCController.h"
 #import "VCManager.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation VCController (Flight)
+@implementation VCController
 
 + (void)pushVC:(UIViewController *)viewController animated:(VCTranstAnimation)animated
 {

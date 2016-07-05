@@ -11,17 +11,6 @@
 #import "NetToolUtility.h"
 #import "NetToolManager.h"
 
-//NSString *const domain = @"l-fangzhen2.f.dev.cn0.qunar.com";
-//NSString *const port = @"48080";
-
-//@"l-fangzhen2.f.dev.cn0.qunar.com";
-//@"48080";
-
-//@"10.86.37.62"
-//@"8080"
-
-//@"10.86.37.129"
-//@"10500"
 
 @implementation NetToolTask
 
